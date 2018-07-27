@@ -13,7 +13,7 @@
 
 #include "msp430F5438.h"
 #include "radio.h"
-// hola git
+// hola git esta es la version 2
 static radio_events_t radio_events;
 
 /*
