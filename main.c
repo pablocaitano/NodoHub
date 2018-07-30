@@ -19,7 +19,7 @@
 #include "sx1276regs-lora.h"
 
 //uint8_t buffer[BUFFER_SIZE];
-
+// estamos editando
 char buffer_recibido[BUFFER_SIZE];
 int state = 0;
 
