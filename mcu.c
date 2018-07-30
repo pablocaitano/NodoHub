@@ -6,12 +6,12 @@
 //#include <msp430.h>
 #include <stdint.h>
 #include "mcu.h"
-
+// seguimos editando
 void mcu_init() {
   WDTCTL = WDTPW + WDTHOLD;   // Disable watchdog
   // VIEJO BCSCTL1 = CALBC1_16MHZ;     // Set range
   // VIEJO DCOCTL  = CALDCO_16MHZ;     // Set DCO step + modulation
-
+int h;
   P1OUT &= 0x00;              // Shut down everything
   P1DIR &= 0x00;
 
