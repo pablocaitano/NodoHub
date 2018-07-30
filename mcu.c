@@ -6,7 +6,7 @@
 //#include <msp430.h>
 #include <stdint.h>
 #include "mcu.h"
-
+// seguimos editando
 void mcu_init() {
   WDTCTL = WDTPW + WDTHOLD;   // Disable watchdog
   // VIEJO BCSCTL1 = CALBC1_16MHZ;     // Set range
